@@ -1,3 +1,172 @@
 *{
+  box-sizing: border-box;
+  letter-spacing: 1;
   margin: 0;
 }
+@font-face{
+  font-family: IRANSans;
+  src        : url(font/IRANSansWeb.ttf);
+}
+html{
+  text-rendering: initial;
+}
+body{
+  height: 600em;
+  font-family: IRANSans;
+  font-size: 14px;
+  direction: rtl;
+  letter-spacing: 1;
+}
+div.ch-top{
+  background-image: linear-gradient(to right, #f76570 0%, #f76570 8%, #f3a46b 8%, #f3a46b 16%, #f3a46b 16%, #ffd205 16%, #ffd205 24%, #ffd205 24%, #1bbc9b 24%, #1bbc9b 25%, #1bbc9b 32%, #14b9d5 32%, #14b9d5 40%, #c377e4 40%, #c377e4 48%, #f76570 48%, #f76570 56%, #f3a46b 56%, #f3a46b 64%, #ffd205 64%, #ffd205 72%, #1bbc9b 72%, #1bbc9b 80%, #14b9d5 80%, #14b9d5 80%, #14b9d5 89%, #c377e4 89%, #c377e4 100%);
+  height          : 3px;
+}
+div.head{
+  /*float: right;*/
+  /*display: ;*/
+  /*flex-direction: row;*/
+  /*min-width: 100%;*/
+}
+div.nav-top{
+  /*max-height : 70px;*/
+  /*line-height: 70px;*/
+  /*float: right;*/
+  display: inline;
+  /*flex-direction: row-reverse;*/
+  margin-right: 60px;
+  margin-top: 3px;
+  z-index: 5;
+}
+.shadow{
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+}
+div.logo{
+  font-size: 17px;
+  display: inline;
+  position: relative;
+  line-height: 1;
+  margin-top: 4px;
+  margin-right: 343px;
+  float: right;
+}
+div.logo img{
+  height: 30px;
+  width: auto;
+  margin-left: 25px;
+  /*right: 20%;*/
+  /*position: absolute;*/
+}
+div.nr-nav{
+  display: inline;
+  float: left;
+  margin-top: 6px;
+}
+div.nr-nav span{
+  color: #2c2f34;
+  font-size: 13px;
+}
+div.nr-nav div{
+  display: inline;
+}
+div.nr-nav a{
+  /*color: #2c2f34;*/
+  position: absolute;
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  /*padding: 10px 20px;*/
+  font-style: normal;
+  /*font-weight: normal;*/
+}
+a.t{
+  padding: 0px 15px 0px 9px;
+}
+div.nr-nav a{
+  color: #fff;
+  background-color: #0088ff;
+}
+div.nr-nav a:visited{
+  color: #fff;
+}
+i.it{
+  padding-right: 3px;
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+/*div.section1{
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.col-1 {width : 8.33%;}
+.col-2 {width : 16.66%;}
+.col-3 {width : 25%;}
+.col-4 {width : 33.33%;}
+.col-5 {width : 41.66%;}
+.col-6 {width : 50%;}
+.col-7 {width : 58.33%;}
+.col-8 {width : 66.66%;}
+.col-9 {width : 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
