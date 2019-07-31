@@ -18,8 +18,14 @@ div.ch-top{
   background-image: linear-gradient(to right, #f76570 0%, #f76570 8%, #f3a46b 8%, #f3a46b 16%, #f3a46b 16%, #ffd205 16%, #ffd205 24%, #ffd205 24%, #1bbc9b 24%, #1bbc9b 25%, #1bbc9b 32%, #14b9d5 32%, #14b9d5 40%, #c377e4 40%, #c377e4 48%, #f76570 48%, #f76570 56%, #f3a46b 56%, #f3a46b 64%, #ffd205 64%, #ffd205 72%, #1bbc9b 72%, #1bbc9b 80%, #14b9d5 80%, #14b9d5 80%, #14b9d5 89%, #c377e4 89%, #c377e4 100%);
   height: 3px;
 }
+.shadow{
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+}
 div.head{
   position: relative;
+  width: 100%;
+  height: 70px;
+  z-index: 5;
 }
 div.logo{
   height: 30px;
@@ -32,6 +38,7 @@ div.nav{
   right: 460px;
   /*top: 28px;*/
   font-size: 14px;
+  width: 60%;
 }
 div.nav li{
   display: inline;
@@ -42,24 +49,127 @@ div.nav li{
 div.nav a{
   transition: 0.09s;
   color: #2c2f34;
-  padding: 27px 10px 27px 15px;
   font-weight: 600;
+  margin: 0 -2px;
+  padding: 27px 10px 27px 15px;
+
+}
+div.nav a#t{
+  padding: 27px 15px 28px 12px;
+}
+div.nav a#m{
+  padding: 27px 14px 28px 14px;
+}
+div.nav a#s{
+  padding: 27px 14px 28px 14px;
+}
+div.nav a#v{
+  padding: 27px 14px 28px 14px;
+}
+div.nav a#sa{
+  padding: 27px 15px 28px 13.5px;
 }
 div.nav a:hover{
   color: white;
   background-color: #0088ff;
 }
 div.nav a i{
-  font-size: 13px;
+  font-size: 12px;
   color: #2c2f34;
   /*line-height: 70px;*/
 }
 div.nav a:hover i{
   color: white;
 }
+ul{
+  padding: 0;
+  margin: 0;
+}
+li{
+  margin: 0;
+  padding: 0;
+}
 li.nl{
-  margin-right: 18px;
+  margin-right: 15px;
 }
 i.inl{
-  margin-right: 4px;
+  margin-right: 5px;
+  color: #2c2f34;
 }
+li.ml{
+  margin-right: 1px;
+}
+li.sl{
+  margin-right: 1px;
+}
+div.search{
+  display: inline;
+  /*float: left;*/
+  position: absolute;
+  top: 28px;
+  left: 71px;
+  font-size: 14px;
+}
+div.search i{
+  cursor: pointer;
+  color: #2c2f34;
+  height: 13px;
+  width: 14px;
+}
+div.search i:hover{
+  color: #0088ff;
+}
+div.section1{
+  height: 500px;
+  position: relative;
+  /*padding-top: 10px;*/
+}
+div.women{
+  background-image: url(img/women.jpg);
+  /*background-repeat: no-repeat;*/
+  width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.col-1 {width : 8.33%;}
+.col-2 {width : 16.66%;}
+.col-3 {width : 25%;}
+.col-4 {width : 33.33%;}
+.col-5 {width : 41.66%;}
+.col-6 {width : 50%;}
+.col-7 {width : 58.33%;}
+.col-8 {width : 66.66%;}
+.col-9 {width : 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
