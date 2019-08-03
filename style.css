@@ -488,7 +488,7 @@ div.box-r{
   float         : right;
   width         : 710px;
   padding-bottom: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   border-bottom : 1px solid rgba(28, 28, 28, .07);
 }
 div.text-br2{
@@ -540,10 +540,10 @@ h5.b-click-sa{
   font-size       : 11px;
   color           : #fff;
   background-color: #00A5A2;
-  padding         : 2px 6px;
+  padding         : 3px 6px;
   left            : 10px;
   right           : auto;
-  bottom          : 10px;
+  bottom          : 7px;
   border-radius   : 2px;
 }
 h5.b-click-sa:hover, h5.b-click-sa:hover a{
@@ -555,10 +555,10 @@ h5.b-click-a{
   font-size       : 11px;
   color           : #fff;
   background-color: #0088ff;
-  padding         : 2px 6px;
+  padding         : 3px 6px;
   left            : 10px;
   right           : auto;
-  bottom          : 10px;
+  bottom          : 7px;
   border-radius   : 2px;
 }
 h5.b-click-a:hover, h5.b-click-a:hover a{
@@ -570,10 +570,10 @@ h5.b-click-z{
   font-size       : 11px;
   color           : #fff;
   background-color: #fbbc05;
-  padding         : 2px 6px;
+  padding         : 3px 6px;
   left            : 10px;
   right           : auto;
-  bottom          : 10px;
+  bottom          : 7px;
   border-radius   : 2px;
 }
 h5.b-click-z:hover, h5.b-click-z:hover a{
@@ -585,10 +585,10 @@ h5.b-click-s{
   font-size       : 11px;
   color           : #fff;
   background-color: #2ecc71;
-  padding         : 2px 6px;
+  padding         : 3px 6px;
   left            : 10px;
   right           : auto;
-  bottom          : 10px;
+  bottom          : 7px;
   border-radius   : 2px;
 }
 h5.b-click-s:hover, h5.b-click-s:hover a{
@@ -600,17 +600,19 @@ h5.b-click-b{
   font-size       : 11px;
   color           : #fff;
   background-color: #7F13B5;
-  padding         : 2px 6px;
+  padding         : 3px 6px;
   left            : 10px;
   right           : auto;
-  bottom          : 10px;
+  bottom          : 7px;
   border-radius   : 2px;
 }
 h5.b-click-b:hover, h5.b-click-b:hover a{
   background-color: #610097;
   color           : white;
 }
-
+div.re span{
+  cursor: pointer;
+}
 
 
 
@@ -629,7 +631,7 @@ div.c-left{
   float: left;
 }
 div.c-left img{
-  /*height: 120px;*/
+  height: 175px;
   width: 310px;
 }
 div.c-left h3{
@@ -650,31 +652,103 @@ div.cl-border h3 a{
 }
 div.box-l{
   width: 370px;
+  height: 351px;
+  margin-bottom: 39px;
   padding: 30px;
   background-color: white;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
   border-radius: 3px;
+}
+div.box-l h3 a{
+  color: #333;
 }
 h5.b-click-l{
   /*font-weight: normal;*/
   font-size       : 11px;
   color           : #fff;
   background-color: #7F13B5;
-  padding         : 2px 6px;
-  left            : 40px;
+  padding         : 3px 6px;
+  left            : 10px;
   right           : auto;
-  bottom          : 40px;
+  bottom          : 9px;
   border-radius   : 2px;
 }
 h5.b-click-l:hover, h5.b-click-l:hover a{
   background-color: #610097;
   color           : white;
 }
+div.tak-co{
+  margin-top: 9px;
+  color: #999999;
+  font-size: 11px;
+}
+div.text-bl{
+  margin-top: 9px;
+  line-height: 2;
+}
+div.text-bl h3 a{
+  font-size: 20px;
+}
+div.text-bl a:hover{
+  color: #007bff;
+}
 
+div.c-left2{
+  width: 400px;
+  padding: 0 15px;
+  float: left;
+}
+div.c-left2 h3{
+  float: left;
+  display: contents;
+}
+div.cl-border2{
+  border-bottom: 1px solid rgba(28, 28, 28, .07);
+  display: flex;
+  margin-bottom: 25px;
+}
+div.cl-border2 h3 a{
+  color: #2d2f34;
+  font-size: 18px;
+  border-bottom: 2px solid #2d2f34;
+  padding-bottom: 8px;
+  cursor: text;
+}
+div.box-l2{
+  width: 370px;
+  height: 351px;
+  margin-bottom: 39px;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
+  border-radius: 3px;
+}
+div.box-l2 h3 a{
+  color: #333;
+}
+div.p-border{
+  border-right: 1px solid rgba(28, 28, 28, .07);
+  height: 500px;
+}
+span.circle{
+  height: 12px;
+  width: 12px;
+  background-color: #e6e6e6;
+  border: 3px solid rgba(255, 255, 255, 0.8);
+  right: -7px;
+  left: auto;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  transition-duration: 0.3s;
+}
+div.box-l2 a:hover span.circle{
+  background-color: #0088ff;
+  transform: scale(1.2);
 
-
-
-
+}
 
 
 
