@@ -723,11 +723,21 @@ div.box-l2{
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
   border-radius: 3px;
 }
-div.box-l2 h3 a{
+div.box-l2 h3 a,div.box-l2 h3,div.box-l2 span{
   color: #333;
 }
+div.news h3{
+  font-size: 14px;
+}
+div.news{
+  padding-right: 12px;
+}
+div.h3-t h3{
+  font-size: 14px;
+  font-weight: bold;
+}
 div.p-border{
-  border-right: 1px solid rgba(28, 28, 28, .07);
+  border-right: 3px solid rgba(28, 28, 28, .07);
   height: 500px;
 }
 span.circle{
